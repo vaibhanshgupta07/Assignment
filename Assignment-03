@@ -1,0 +1,57 @@
+Assignment 3 – Terminal Navigation Practice
+
+Objective
+
+To learn and practice basic terminal commands for navigating directories, creating files and folders, copying, renaming and deleting files, and opening projects in Visual Studio Code.
+
+Part 1: Basic Terminal Commands
+
+| No. | Task                   | Command                  |
+| --- | ---------------------- | -------------------------|
+| 1   | Show current folder    | pwd                      |
+| 2   | List files             | ls                       |
+| 3   | List hidden files      | ls -Force                |
+| 4   | Create a folder        | mkdir practice           |
+| 5   | Enter the folder       | cd practice              |
+| 6   | Create an empty file   | ni index.html            |
+| 7   | Create nested folders  | mkdir css/images         |
+| 8   | Go up one level        | cd ..                    |
+| 9   | Go to home directory   | cd ~                     |
+| 10  | Copy a file            | cp index.html backup.html |
+| 11  | Rename a file          | mv backup.html old.html  |
+| 12  | Delete a file          | rm old.html              |
+| 13  | Delete a folder        | rm -r css                |
+| 14  | Print file contents    | cat index.html           |
+| 15  | Clear terminal         | cls                      |
+| 16  | Open folder in VS Code | code                     |
+
+Part 2: Practice Exercise
+
+Commands Used
+
+powershell
+cd ~
+mkdir -Force website/css, website/images
+New-Item website/index.html -ItemType File
+New-Item website/css/style.css -ItemType File
+cd website/css
+cd ..
+ls -Recurse
+Rename-Item index.html home.html
+Rename-Item home.html index.html
+code .
+
+
+Part 3: Final Folder Structure
+
+text
+website/
+│
+├── index.html
+├── css/
+│   └── style.css
+└── images/
+
+Conclusion
+
+I successfully practiced 16 basic terminal commands and learned how to create directories, create files, navigate between folders, list files recursively, copy and rename files, delete files and folders, and open a project in Visual Studio Code.
