@@ -1,0 +1,53 @@
+# Assignment 4 – Repository with at Least Three Meaningful Commits
+
+## 1. Objective
+
+The objective of this assignment is to understand Git version control, initialize a repository, track changes, and create at least three meaningful commits.
+
+## 2. Git Identity Configuration
+
+Commands used to configure Git identity:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
+
+## 3. Repository Initialization
+
+```bash
+git init
+git branch -M main
+```
+
+## 4. Meaningful Commits
+
+I created the following three commits:
+
+| Commit No. | Commit Message             |
+| ---------- | -------------------------- |
+| 1          | Initial commit             |
+| 2          | Add new file index.html    |
+| 3          | docs: add learning journey |
+
+5. Git Commands Used
+
+bash
+git status
+git add README.md
+git commit -m "docs: add learning journey"
+git log --oneline
+git push origin main
+
+
+ 6. Commit History
+
+The following command was used to check the commit history:
+
+bash
+git log --oneline
+
+
+ 7. Conclusion
+
+I successfully learned how to configure Git, initialize a repository, track file changes, create meaningful commits, and view commit history. I also learned how to upload my local repository changes to GitHub.
